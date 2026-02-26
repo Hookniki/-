@@ -18,14 +18,14 @@
       color: #555;
       font-size: 18px;
     }
-    img {
-      width: 80vw;                  /* Картинка почти на весь экран */
-      height: auto;                 /* Сохраняем пропорции */
-      max-width: 176x313px;            /* Максимальная ширина */
-      display: block;
-      margin: 20px auto;            /* Центрируем картинку */
-      border-radius: 10px;          /* Скруглённые углы (по желанию) */
-    }
+  img {
+    width: 176px;
+    height: 313px;
+    object-fit: cover; /* чтобы картинка не искажалась */
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
   </style>
 </head>
 <body>
