@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Мой сайт</title>
+  <title>Мой сайт с человеком</title>
   <style>
     body {
-      text-align: center;           /* Центрируем текст и картинку */
-      background-color: #f0f0f0;    /* Цвет фона */
       margin: 0;
       padding: 0;
+      text-align: center;           /* Центрируем текст и картинку */
+      background-color: #f0f0f0;    /* Цвет фона */
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      margin-top: 20px;
+      color: #333;
+    }
+    p {
+      color: #555;
+      font-size: 18px;
     }
     img {
       width: 90vw;                  /* Картинка почти на весь экран */
-      height: auto;                 /* Пропорции сохраняются */
+      height: auto;                 /* Сохраняем пропорции */
       max-width: 1200px;            /* Максимальная ширина */
+      display: block;
+      margin: 20px auto;            /* Центрируем картинку */
+      border-radius: 10px;          /* Скруглённые углы (по желанию) */
     }
   </style>
 </head>
 <body>
   <h1>Привет! Это мой сайт</h1>
-  <p>Здесь моя новая картинка бабочки 🦋</p>
-  <img src="my-butterfly.png" alt="Бабочка">
+  <p>Смотрите на картинку человека ниже</p>
+  <img src="person.png" alt="Человек">
 </body>
 </html>
